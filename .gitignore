@@ -1,0 +1,25 @@
+# General
+*.pyc
+__pycache__/
+*.env
+
+# IDE - Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Credentials
+credentials/
+oauth/credentials/
+
+# SSL certificates (if they are not meant to be shared)
+etc/ssl/private/
+
+# Node modules (if you use Node.js in any part of your project)
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
